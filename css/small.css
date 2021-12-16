@@ -34,6 +34,7 @@ nav ul {
 }
 nav a {
     text-decoration: none;
+    color: #EBEBEB;
 }
 nav a:visited {
     color: #EBEBEB;
@@ -108,7 +109,7 @@ nav a:hover {
     margin: 1rem auto;
     box-shadow: 3px 3px 5px #454545;
     border-radius: 10px;
-    width: 85%;
+    width: 50%;
 }
 article h2 {
     font-family: 'Comfortaa', cursive;

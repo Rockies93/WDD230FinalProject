@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Provo Chamber of Commerce-Join</title> 
+        <meta name="description" content="Join the Provo City Chamber of Commerce">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css"> 
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <div class="weather-alert"></div>
+            <img src="https://dummyimage.com/60x60/fff/aaa" alt="Provo Chamber of Commerce logo">
+            <nav class="navigation">
+                <ul>
+                    <li><img src="https://dummyimage.com/25x25/fff/aaa" alt="" class="hamburger"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="side-hero">
+                <picture>
+                    <source srcset="images/provohp.jpg" media="(min-width:32.5em)">
+                    <img src="images/provohp-small.jpg" alt="people on provo center street">
+                </picture>
+                <h1>Join the Provo City <br>Chamber of Commerce</h1>
+            </div>
+            <form method="get" action="joinThanks.html">
+                <label for="fname">First Name: <input type="text" name="fname" id="fname" required></label>
+                <label for="lname">Last Name: <input type="text" name="lname" id="lname" required></label>
+                <label for="title">Title: <input type="text" name="title" id="title"></label>
+                <label for="email">Email: <input type="email" name="email" id="email" required></label>
+                <label for="phone">Cell Phone: <input type="tel" name="phone" id="phone"></label>
+                <label for="business">Business Name: <input type="text" name="business" id="business" required></label>
+                <label for="address">Business Address: <input type="text" name="address" id="address"></label>
+                <label for="website">Business Website: <input type="url" name="website" id="website"></label>
+                <label for="description">Business Description: <textarea name="description" id="description" cols="30" rows="10"></textarea></label>
+                <label>Membership Level *See Table for Description</label>
+                    <label for="non-profit"><input type="radio" name="membership" id="non-profit" class="sbs"> Non-Profit - $100</label>
+                    <label for="bronze"><input type="radio" name="membership" id="bronze" class="sbs"> Bronze - $200</label>
+                    <label for="silver"><input type="radio" name="membership" id="silver" class="sbs"> Silver - $400</label>
+                    <label for="gold"><input type="radio" name="membership" id="gold" class="sbs"> Gold - $1000</label>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">&nbsp;</th>
+                            <th scope="col">Non-Profit</th>
+                            <th scope="col">Bronze</th>
+                            <th scope="col">Silver</th>
+                            <th scope="col">Gold</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Price:</td>
+                            <td>$100</td>
+                            <td>$200</td>
+                            <td>$400</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>Perk 1:</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <td>Perk 2:</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <td>Perk 3:</td>
+                            <td>&nbsp;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <td>Perk 4:</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&#10004;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <td>Perk 5:</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                        <tr>
+                            <td>Perk 6:</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&#10004;</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="submit" value="Join the Chamber" class="subbut">
+            </form>
+        </main>
+        <footer>
+            <div class="contact-info">
+                <div class="phone-email">
+                    <img src="images/phone.png" alt="phone icon">
+                    <span>(555) 555-5555</span>
+                    <img src="images/email.png" alt="email icon">
+                    <span>ContactUs@ProvoChamber.com</span>
+                </div>
+                <div class="socials">
+                    <img src="images/facebook.png" alt="facebook icon">
+                    <img src="images/instagram.png" alt="instagram icon">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </div>
+            </div>
+            <div class="weather">
+                <div class="current-weather">
+                    <h3>Current Weather</h3>
+                </div>
+                <h3>3-Day Forecast</h3>
+                <div class="forecast">
+                    
+                </div>
+            </div> 
+        </footer>
+        <script src="js/responsive-menu.js"></script>
+        <script src="js/weatherapi.js"></script>
+    </body>
+</html>

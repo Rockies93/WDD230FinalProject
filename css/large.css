@@ -1,0 +1,22 @@
+@media (min-width: 75em) {
+
+    .article-box {
+        width: 75%;
+        margin: 1rem auto;
+    }
+    .current-leadership {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 2;
+    }
+    .current-leadership h2 {
+        grid-column: 1 / 5;
+    }
+    .directory{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .map {
+        margin: auto;
+    }
+}

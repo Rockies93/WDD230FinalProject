@@ -1,0 +1,49 @@
+{
+    "companies": [
+        {
+            "name": "Mozz Artisan Pizza",
+            "phone": "(801) 852-0069",
+            "website": "https://www.mozzartisanpizza.com/",
+            "logo": "images/mozz.jpg"
+        },
+        {
+            "name": "NuSkin",
+            "phone": "(801)345-1000",
+            "website": "https://www.nuskin.com/en_US/home.html",
+            "logo": "images/nuskin.jpg"
+        },
+        {
+            "name": "Hruskas Kolaches",
+            "phone": "(801) 623-3578",
+            "website": "http://hruskaskolaches.com/",
+            "logo": "images/hruskas.jpg"
+        },
+        {
+            "name": "Nelson Family Mortuary",
+            "phone": "(801) 405-7444",
+            "website": "https://www.nelsonmortuary.com/",
+            "logo": "images/nelson.jpg"
+        },
+        {
+            "name": "High County Adventures",
+            "phone": "(801) 224-2500",
+            "website": "https://highcountryadventure.com/",
+            "logo": "images/high.jpg"
+        },
+        {
+            "name": "Strong & Strong, LC - Certified Public Accountants",
+            "phone": "(801) 489-5015",
+            "website": "https://www.strongcpas.com/",
+            "logo": "images/strong.jpg"
+        },
+        {
+            "name": "Jeppson Dentist",
+            "phone": "(801) 356-7701",
+            "website": "https://www.jeppsondental.com/",
+            "logo": "images/jeppson.jpg"
+        }
+        
+        
+    ]
+}
+

@@ -1,0 +1,52 @@
+@media (min-width: 32.5em) {
+    /*Navigation*/
+    nav {
+        text-align: center;
+        font-size: 1rem;
+        margin: auto;
+        width: 100%;
+    }
+    .navigation {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: right;
+    }
+    .navigation li{
+        display: inline-block;
+        flex: 1 1 auto;
+        margin: 0 2rem;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+
+    /*Homepage Article*/
+    .article-box img {
+        float: left;
+        margin-right: 1rem;
+    }
+    .article-box {
+        overflow: auto;
+    }
+
+    /*Membership Homepage*/
+    .member-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /*About*/
+    .about-history {
+        width: 75%;
+        margin: auto;
+    }
+
+    /*Directory*/
+    .directory{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .layout-change {
+        display: inline;
+    }
+}

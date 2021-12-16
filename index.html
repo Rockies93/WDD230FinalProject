@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Provo Chamber of Commerce</title> 
+        <meta name="description" content="Homepage for the Provo Chamber of Commerce. Contains overview of site">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css"> 
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <div class="weather-alert"></div>
+            <img src="https://dummyimage.com/60x60/fff/aaa" alt="Provo Chamber of Commerce logo">
+            <nav class="navigation">
+                <ul>
+                    <li><img src="images/hamburger.png" alt="menu" class="hamburger"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/provohp.jpg" media="(min-width:32.5em)">
+                    <img src="images/provohp-small.jpg" alt="people on provo center street">
+                </picture>
+                <div class="hero-text">
+                    <h1>Provo City <br>Chamber of Commerce</h1>
+                    <button onclick="window.location.href='/join.html';">Join Here</button>
+                </div>
+                <div class="color-block"></div>
+            </div>
+            <div class="article-box">
+                <img src="images/handshake.jpg" alt="business people shaking hands">
+                    <img src="https://dummyimage.com/300x300/fff/aaa" alt="" id="small-hide">
+                <article>
+                    <h2>Why a Chamber of Commerce</h2>
+                    <p>The purpose of the Provo Chamber of Commerce is to provide a platform for local businesses to network, advertise, and connect with the citizens of Provo City. We want to provide a bridge between business owners and city council members and city employees. We also hope to draw attention to and educate the public about issues important to small business owners in Provo. We also hope to support the small business community by offering promotion and networking opportunities to small business owners in the community.</p>
+                </article>
+            </div>
+            <div class="membership">
+                <h2>Meet our Members</h2>
+                <div class="member-grid">
+                    <div class="member-profile">
+                        <img src="images/mozz.jpg" alt="logo for mozz pizza">
+                        <h3>Mozz Pizza</h3>
+                        <p>MOZZ is a unique spot on Provo’s business landscape. Combining the vintage charm of Provo’s downtown area with the absolute professionalism of its owners, MOZZ is a place where anyone can feel comfortable. The menu showcases a range of offerings, from humanely prepared meats to locally sourced vegetables and seasonings.  </p>
+                    </div>
+                    <div class="member-profile">
+                        <img src="images/hruskas.jpg" alt="logo for Hruskas">
+                        <h3>Hruskas Kolaches</h3>
+                        <p>Hruskas Kolaches is a family owned and operated bakery started by 3 Texan siblings. With a secret recipe from their grandmother, they make everything fresh from scratch every day.</p>
+                    </div>
+                    <div class="member-profile">
+                        <img src="images/nelson.jpg" alt="logo for Nelson Mortuary">
+                        <h3>Nelson Family Mortuary</h3>
+                        <p> My dream was to someday build a new funeral home that provides a different kind of experience. So after working in the industry for years and gaining insight on how things should and should not be done, I decided it was time for me to start Nelson Family Mortuary. We have now been open for almost 5 years and able to provide the most unique services anywhere in the state. With the facilities we have built, it truly magnifies the positive experience people can have.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="calendar">
+                <h2>Chamber Calendar</h2>
+                <div class="calendar-event">
+                    <div>  
+                        <div class="calendar-date">10<br>Jan</div>
+                    </div>
+                    <div class="calendar-description">Symposium: Learning the tax code</div>
+                </div>
+                <div class="calendar-event">
+                    <div>  
+                        <div class="calendar-date">1<br>Jun</div>
+                    </div>
+                    <div class="calendar-description">Summer Bash at Pioneer Park</div>
+                </div>
+                <div class="calendar-event">
+                    <div>  
+                        <div class="calendar-date">1<br>Aug</div>
+                    </div>
+                    <div class="calendar-description">Symposium: Using Social Media to Promote your business</div>
+                </div>
+                <div class="calendar-event">
+                    <div>  
+                        <div class="calendar-date">25<br>Sept</div>
+                    </div>
+                    <div class="calendar-description">City Council Hearing</div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="contact-info">
+                <div class="phone-email">
+                    <img src="images/phone.png" alt="phone icon">
+                    <span>(555) 555-5555</span>
+                    <img src="images/email.png" alt="email icon">
+                    <span>ContactUs@ProvoChamber.com</span>
+                </div>
+                <div class="socials">
+                    <img src="images/facebook.png" alt="facebook icon">
+                    <img src="images/instagram.png" alt="instagram icon">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </div>
+            </div>
+            <div class="weather">
+                <div class="current-weather">
+                    <h3>Current Weather</h3>
+                </div>
+                <h3>3-Day Forecast</h3>
+                <div class="forecast">
+                    
+                </div>
+            </div> 
+        </footer>
+        <script src="js/responsive-menu.js"></script>
+        <script src="js/weatherapi.js"></script>
+    </body>
+</html>

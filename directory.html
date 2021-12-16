@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Provo Chamber of Commerce-Directory</title> 
+        <meta name="description" content="Directory of Companies that are members of the Provo City Chamber of Commerce">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lato:wght@300&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css"> 
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <div class="weather-alert"></div>
+            <img src="https://dummyimage.com/60x60/fff/aaa" alt="Provo Chamber of Commerce logo">
+            <nav class="navigation">
+                <ul>
+                    <li><img src="https://dummyimage.com/25x25/fff/aaa" alt="" class="hamburger"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="side-hero">
+                <picture>
+                    <source srcset="images/provohp.jpg" media="(min-width:32.5em)">
+                    <img src="images/provohp-small.jpg" alt="people on provo center street">
+                </picture>
+                <h1>Chamber Directory</h1>
+            </div>
+            <div class="layout-change">
+                <button>Grid</button>
+                <button>List</button>
+            </div>
+            <div class="directory">
+
+            </div>
+        </main>
+        <footer>
+            <div class="contact-info">
+                <div class="phone-email">
+                    <img src="images/phone.png" alt="phone icon">
+                    <span>(555) 555-5555</span>
+                    <img src="images/email.png" alt="email icon">
+                    <span>ContactUs@ProvoChamber.com</span>
+                </div>
+                <div class="socials">
+                    <img src="images/facebook.png" alt="facebook icon">
+                    <img src="images/instagram.png" alt="instagram icon">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </div>
+            </div>
+            <div class="weather">
+                <div class="current-weather">
+                    <h3>Current Weather</h3>
+                </div>
+                <h3>3-Day Forecast</h3>
+                <div class="forecast">
+                    
+                </div>
+            </div> 
+        </footer>
+        <script src="js/responsive-menu.js"></script>
+        <script src="js/weatherapi.js"></script>
+        <script src="js/directory.js"></script>
+    </body>
+</html>

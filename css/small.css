@@ -22,6 +22,9 @@ header {
     background-color: #EBEBEB;
     border-radius: 50%;
 }
+.logo img {
+    width: 100%;
+}
 nav {
     text-align: right;
     width: 100%;
@@ -69,6 +72,7 @@ nav a:hover {
     font-family: 'Merriweather', serif;
     color: #EBEBEB;
     text-shadow: 2px 2px 2px #313638;
+    z-index: 3;
 }
 .hero button {
     font-family: 'Lato', sans-serif;
@@ -109,7 +113,7 @@ nav a:hover {
     margin: 1rem auto;
     box-shadow: 3px 3px 5px #454545;
     border-radius: 10px;
-    width: 50%;
+    width: 85%;
 }
 article h2 {
     font-family: 'Comfortaa', cursive;
@@ -133,13 +137,21 @@ article p {
 .member-profile {
     margin: 2rem 0;
 }
-.member-profile img {
+.member-image {
     border-radius: 50%;
     display: block;
     margin: auto;
     height: 200px;
     width: 200px;
     background-color: white;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.member-image img {
+    width: 100%;
 }
 .member-profile h3 {
     font-family: 'Comfortaa', cursive;
@@ -281,12 +293,20 @@ article p {
     font-family: 'Lato', sans-serif;
     color: #454545;
 }
-.leader-profile img {
+.container img {
+    width: 100%;
+    border-radius: 10px;
+}
+.profile-img {
     border-radius: 50%;
     display: block;
     margin: auto;
     height: 300px;
     width: 300px;
+    overflow: hidden;
+}
+.profile-img img {
+    width: 100%;
 }
 .leader-profile {
     width: 80%;
@@ -454,6 +474,8 @@ footer{
 }
 .current-weather ul{
     list-style: none;
+    background-color: rgba(235, 235, 235,.4);
+    padding: 1rem;
 }
 footer h3 {
     font-family: 'Lato', sans-serif;
@@ -462,8 +484,10 @@ footer h3 {
 .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(235, 235, 235,.4);
 }
 .daily {
     border: 1px solid #454545;
     padding: .5rem;
+    text-align: center;
 }

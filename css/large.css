@@ -4,19 +4,42 @@
         width: 75%;
         margin: 1rem auto;
     }
+    .article-box img {
+        width: 50%;
+    }
     .current-leadership {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: 2;
+        grid-template-rows: 1fr 6fr;
     }
     .current-leadership h2 {
         grid-column: 1 / 5;
     }
+    .content img {
+        max-height: 400px;
+    }
+    .timeline {
+        width: 50%;
+        margin: auto;
+    }
+    
     .directory{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     .map {
         margin: auto;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-info {
+        grid-column: 1 / 2;
+    }
+    .weather {
+        grid-column: 2 / 3;
     }
 }

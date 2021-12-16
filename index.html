@@ -16,7 +16,9 @@
     <body>
         <header>
             <div class="weather-alert"></div>
-            <img src="images/logo.png" alt="Provo Chamber of Commerce logo" class="logo">
+            <div class="logo">
+                <img src="images/logo.png" alt="Provo Chamber of Commerce logo" >
+            </div>  
             <nav class="navigation">
                 <ul>
                     <li><img src="images/hamburger.png" alt="menu" class="hamburger"></li>
@@ -31,14 +33,16 @@
         <main>
             <div class="hero">
                 <picture>
-                    <source srcset="images/provohp.jpg" media="(min-width:32.5em)">
+                    <source srcset="images/provohp.jpg" media="(min-width:60em)">
+                    <source srcset="images/provohp-medium.jpg" media="(min-width:32.5em) and (max-width:59.9em)">
                     <img src="images/provohp-small.jpg" alt="people on provo center street">
                 </picture>
+                <div class="color-block"></div>
                 <div class="hero-text">
                     <h1>Provo City <br>Chamber of Commerce</h1>
                     <button onclick="window.location.href='/join.html';">Join Here</button>
                 </div>
-                <div class="color-block"></div>
+                
             </div>
             <div class="article-box">
                 <img src="images/handshake.jpg" alt="business people shaking hands">
@@ -52,17 +56,23 @@
                 <h2>Meet our Members</h2>
                 <div class="member-grid">
                     <div class="member-profile">
-                        <img src="images/mozz.jpg" alt="logo for mozz pizza">
+                        <div class="member-image">
+                            <img src="images/mozz.jpg" alt="logo for mozz pizza">
+                        </div>
                         <h3>Mozz Pizza</h3>
                         <p>MOZZ is a unique spot on Provo’s business landscape. Combining the vintage charm of Provo’s downtown area with the absolute professionalism of its owners, MOZZ is a place where anyone can feel comfortable. The menu showcases a range of offerings, from humanely prepared meats to locally sourced vegetables and seasonings.  </p>
                     </div>
                     <div class="member-profile">
-                        <img src="images/hruskas.jpg" alt="logo for Hruskas">
+                        <div class="member-image">
+                            <img src="images/hruskas.jpg" alt="logo for Hruskas">
+                        </div>
                         <h3>Hruskas Kolaches</h3>
                         <p>Hruskas Kolaches is a family owned and operated bakery started by 3 Texan siblings. With a secret recipe from their grandmother, they make everything fresh from scratch every day.</p>
                     </div>
                     <div class="member-profile">
-                        <img src="images/nelson.jpg" alt="logo for Nelson Mortuary">
+                        <div class="member-image">
+                            <img src="images/nelson.jpg" alt="logo for Nelson Mortuary">
+                        </div>
                         <h3>Nelson Family Mortuary</h3>
                         <p> My dream was to someday build a new funeral home that provides a different kind of experience. So after working in the industry for years and gaining insight on how things should and should not be done, I decided it was time for me to start Nelson Family Mortuary. We have now been open for almost 5 years and able to provide the most unique services anywhere in the state. With the facilities we have built, it truly magnifies the positive experience people can have.</p>
                     </div>

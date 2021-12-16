@@ -24,6 +24,7 @@
     .article-box img {
         float: left;
         margin-right: 1rem;
+        width: 50%;
     }
     .article-box {
         overflow: auto;
@@ -39,6 +40,14 @@
     .about-history {
         width: 75%;
         margin: auto;
+    }
+    .content img {
+        width: 50%;
+        float: left;
+        margin: 1rem;
+    }
+    .content {
+        overflow: auto;
     }
 
     /*Directory*/

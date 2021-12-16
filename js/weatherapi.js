@@ -37,7 +37,7 @@ for (let i = 0; i < 3; i++) {
     daily.appendChild(dayHeader);
 
     let dayTemp = document.createElement('p');
-    dayTemp.textContent = jsObject.daily[i].temp.day;
+    dayTemp.textContent = `${jsObject.daily[i].temp.day} \u00B0F`;
     daily.appendChild(dayTemp);
 }
 

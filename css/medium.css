@@ -64,7 +64,8 @@
         width: 25px;
     }
     form {
-        margin: auto;
+        width: 60%;
+        margin: 1rem auto;
     }
 
     /*Directory*/

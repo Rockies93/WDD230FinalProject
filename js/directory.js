@@ -1,5 +1,5 @@
-const apiURL = "companies.json";
-fetch(apiURL)
+const apiUR = "/WDD230FinalProject/companies.json";
+fetch(apiUR)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
@@ -14,10 +14,13 @@ fetch(apiURL)
         h2.textContent = jsObject.companies[i].name;
         card.appendChild(h2);
 
+        let imgDiv = document.createElement('div');
+        imgDiv.setAttribute('class','profile-img');
+        card.appendChild(imgDiv)
         let img = document.createElement('img');
         img.src = jsObject.companies[i].logo;
         img.alt = `${jsObject.companies[i].name} logo`;
-        card.appendChild(img);
+        imgDiv.appendChild(img);
 
         let list = document.createElement('ul');
         card.appendChild(list);

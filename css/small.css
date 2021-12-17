@@ -304,6 +304,9 @@ article p {
     height: 300px;
     width: 300px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .profile-img img {
     width: 100%;

@@ -494,3 +494,6 @@ footer h3 {
     padding: .5rem;
     text-align: center;
 }
+.company .profile-img {
+    box-shadow: 3px 3px 5px #313638;
+}

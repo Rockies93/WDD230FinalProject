@@ -42,4 +42,7 @@
     .weather {
         grid-column: 2 / 3;
     }
+    input {
+        height: 25px;
+    }
 }

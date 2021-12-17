@@ -50,6 +50,23 @@
         overflow: auto;
     }
 
+    /*join*/
+    .subbut {
+        max-width: 200px;
+        margin: auto;
+        padding: 0rem;
+    }
+    input {
+        height: 35px;
+    }
+    .sbs {
+        height: 25px;
+        width: 25px;
+    }
+    form {
+        margin: auto;
+    }
+
     /*Directory*/
     .directory{
         display: grid;
